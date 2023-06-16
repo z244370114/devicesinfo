@@ -1,7 +1,9 @@
 name: devicesinfo
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+authors: zhouyuan
+homepage: https://github.com/z244370114/devicesinfo
+repository: https://github.com/z244370114/devicesinfo
 
 environment:
   sdk: '>=3.0.2 <4.0.0'
