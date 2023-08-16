@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'devicesinfo_method_channel.dart';

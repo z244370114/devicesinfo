@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
@@ -9,7 +7,7 @@ import 'devicesinfo_platform_interface.dart';
 class MethodChannelDevicesinfo extends DevicesinfoPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('devicesinfo');
+  static const methodChannel = MethodChannel('devicesinfo');
 
   @override
   static Future<void> initApp() async {
@@ -87,5 +85,4 @@ class MethodChannelDevicesinfo extends DevicesinfoPlatform {
     var data = await methodChannel.invokeMethod('getStorageData');
     return data;
   }
-
 }
