@@ -1,6 +1,6 @@
 name: devicesinfo
-description: A new Flutter project.
-version: 0.0.1
+description: This is a project to get Android device information.
+version: 0.0.2
 #authors: zhouyuan
 #homepage: https://github.com/z244370114/devicesinfo
 repository: https://github.com/z244370114/devicesinfo.git
